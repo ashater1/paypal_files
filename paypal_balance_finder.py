@@ -1,4 +1,5 @@
-'''Finds ending balances of accounts contained in a PayPal Settlement Report on a user defined date.'''
+'''Finds ending balances of accounts contained in a PayPal Settlement Report on a user defined date.
+File specs can be found here: https://www.paypalobjects.com/webstatic/en_US/developer/docs/pdf/PP_LRD_Gen_SettlementReport.pdf'''
 
 import pyperclip, pprint, os, sys, re
 from tkinter import filedialog
